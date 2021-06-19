@@ -1,0 +1,109 @@
+.nav-wrapper {
+  padding: 0 2rem;
+  background: blue;
+}
+
+.price {
+  font-size: 2rem;
+}
+
+.course {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.course h1 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+p .description {
+  font-size: 1.5rem;
+}
+.course img {
+  max-width: 400px;
+  height: auto;
+}
+
+.course .price.big {
+  font-size: 2.5rem;
+}
+
+.card-action.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.course-form {
+  margin-bottom: 2rem;
+}
+
+.auth {
+  padding-top: 1rem;
+}
+
+.alert {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 1rem;
+  background: rgba(255, 0, 0, 0.3);
+  color: red;
+}
+.description {
+  font-size: 2rem;
+}
+a {
+  text-decoration: none;
+}
+.slide {
+  height: 65vh;
+  border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
+  color: #fff;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 500ms ease-in-out;
+}
+.slide h3 {
+  position: absolute;
+  font-size: 24px;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+.slide.active {
+  flex: 10;
+}
+.slide.active h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
+.news {
+  margin-top: 3rem;
+  border-left: 2px solid rgba(70, 69, 69, 0.562);
+  border-right: 2px solid rgba(70, 69, 69, 0.562);
+  border-radius: 30px;
+}
+.news-header {
+  padding-top: 2rem;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  color: rgb(51, 50, 50);
+}
+.news-desrtiption {
+  padding: 1rem;
+}
+
+.avatar {
+  width: 300px;
+  height: auto;
+}
